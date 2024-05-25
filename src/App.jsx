@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
     firstName:"",
     lastName:"",
     email:"",
-    country:"",
+    country:"India",
     street:"",
     city:"",
     state:"",
@@ -38,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className='w-screen h-full flex items-center justify-center overflow-hidden'>
+    <div className='w-screen h-full flex items-center justify-center p-6 overflow-x-hidden'>
       <form action="" onSubmit={submitHandler}>
           <label className='text-xl font-bold' htmlFor="firstName">First Name</label>
           <br />
